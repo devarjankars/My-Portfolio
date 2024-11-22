@@ -1,0 +1,43 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.hero img {
+    width: 200px;
+    margin: 2px;
+}
+.btn-container{
+    display: flex;
+    gap: 20px;
+}
+
+.connect-me{
+    display: flex;
+    align-items: center;
+    margin: 2px;
+    padding: 8px;
+    border-radius: 14px;
+    transition: 0.5s;
+    background: linear-gradient(260deg, #ffa723 3%, #ac0cf7 120%);
+
+}
+.connect-me:hover{
+  transform: scale(1.05);
+  border: 4px solid white;
+}
+.resume{
+    display: flex;
+    align-items: center;
+    margin: 2px;
+    padding: 8px;
+    border: 4px solid;
+    border-radius: 14px;
+
+    transition: 0.5s;
+}
+.resume:hover{
+  transform: scale(1.05);
+  border-color: rgb(253, 100, 207);
+}
