@@ -47,6 +47,7 @@
     display: flex;
     align-items: center;
     gap: 50px;
+    transition: 0.5s;
 
 }
 .right-section{
@@ -63,6 +64,10 @@
      outline: none;
 }
 
+.skill:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
 
 .about_achivements{
     display: flex;
@@ -86,7 +91,8 @@
     background-clip: text;
 }
 .about_achivement:hover{
-    transform: scale(1.05);
+    transform: scale(1.25);
+    cursor: pointer;
 }
 .about_achivement hr{
     height: 10px;
