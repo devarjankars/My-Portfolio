@@ -1,0 +1,94 @@
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin: 80px 150px;
+
+}
+.contact-title{
+    position: relative;
+}
+.contact-title h1{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 4px;
+
+}
+.contact-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    width: 150px;
+}
+.container{
+    display:flex ;
+    gap: 180px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.left div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.left h1{
+    font-size: 40px;
+    background: linear-gradient(270deg, #f5d099 60%, #aa55d1 120%);
+    
+    color: transparent;
+    background-clip: text;
+}
+.left p{
+    max-width: 500px;
+    color: #f0edea;
+    line-height: 30px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 35px;
+}
+.right label{
+    font-size: 20px;
+    font-weight: 400;
+    color: #eee4db;
+}
+.right input{
+    border: none;
+    width: 400px;
+    height: 50px;
+      border-radius: 10px;
+    padding-left: 10px;
+    background: rgba(245, 240, 245, 0.133);
+}
+.right textarea{
+    border: none;
+    width: 400px;
+    height: 160px;
+      border-radius: 10px;
+    padding-left: 10px;
+    background: rgba(245, 240, 245, 0.133);
+}
+.right button{
+    font-size: 20px;
+padding: 12px 40px;  
+align-items: center;
+transition: 0.4s;
+background: linear-gradient(260deg, #ffa723 3%, #ac0cf7 120%);
+border-radius: 10px;
+color: #FFF;
+
+
+}
+.right button:hover{
+    transform: scale(1.1);
+    border: 2px solid #b199bd;
+}
